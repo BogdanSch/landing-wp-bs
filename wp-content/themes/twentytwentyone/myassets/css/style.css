@@ -1,0 +1,42 @@
+/* General - Start */
+html{
+    scroll-behavior: smooth;
+}
+/* General - End */
+/* Header - Start */
+.site-title {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.site-title > a {
+    text-decoration-color: #fff !important;
+}
+.site-logo{
+    border-bottom: 1px solid #fff !important;
+}
+.site-description{
+    color: rgb(240, 240, 240);
+}
+#masthead{
+    max-width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-image: url(../img/mars-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header-navigation{
+    padding-top: 2rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.primary-navigation a:hover, .primary-navigation a:link, .primary-navigation a:visited{
+    color: #fff;
+}
+/* Header - End */
+.wpcf7-form input, textarea{
+    border: solid lightgray;
+    padding: 8px;
+    margin: 5px;
+}
